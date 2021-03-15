@@ -1,0 +1,113 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="bar.css">
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <img src="sguicon.png"  style="float: left;padding:10px;width:90px"></a>
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<div>
+  <section class="home">
+     <div class="slider">
+        <div class="slide active" style="background-image: url('slide1-1.jpeg')">
+            <div class="container">
+                <div class="caption">
+                    <h1>Tài liệu học tập miễn phí.</h1>
+                    <p>Đa dạng môn học</p>
+                    <a href="">Xem ngay</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('slide1-2.jpg')">
+            <div class="container">
+                <div class="caption">
+                    <h1>Phần mềm tiện ích</h1>
+                    <h1>miễn phí.</h1>
+                    <p>Hỗ trợ Window, MacOS, Android và iOS</p>
+                    <a href="">Xem ngay</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('slide1-3.jpeg')">
+            <div class="container">
+                <div class="caption">
+                    <h1>Văn phòng phẩm giá rẻ</h1>
+                    <p>Đặt hàng online nhanh chóng tiện dụng</p>
+                    <a href="">Mua ngay</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('slide1-4.jpeg')">
+            <div class="container">
+                <div class="caption">
+                   
+                </div>
+            </div>
+        </div>
+     </div>
+   
+    <!-- controls  -->
+    <div class="controls">
+        <div class="prev"><</div>
+        <div class="next">></div>
+    </div>
+
+    <!-- indicators -->
+    <div class="indicator">
+    </div>
+
+  </section>
+</div>
+<div class="containerr" style="width:50%;text-align:center;float:left;" >
+
+    <img src="tl.png" alt="Snow" style="width:50%;margin: 10px;border-radius: 10%;">
+    <button class="btnn">TÀI LIỆU</button>
+  
+  </div>
+  
+  <div class="containerr" style="text-align:center;width:50%;float:right;">
+
+<img src="vp.jpg" alt="Forest" style="width:50%;margin: 10px;border-radius: 10%;">
+        <button class="btnn">SẢN PHẨM</button>
+</div>
+
+<div class="containerr" style="text-align:center;width:50%;float:left">
+
+<img src="ul.png" alt="Mountains" style="width:55%;margin: 10px;border-radius: 10%;">
+        <button class="btnn">TIỆN ÍCH</button>
+
+  </div>
+</div>
+
+
+<!-- END MAIN -->
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
+
